@@ -2,7 +2,8 @@ import { useState } from "react";
 import reactLogo from "/logos/react.svg";
 import viteLogo from "/logos/vite.svg";
 import useDynamicFavicon from "./hooks/useDynamicFavicon";
-import "./styles/App.css";
+
+import HeroSection from "./components/HeroSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <HeroSection />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
