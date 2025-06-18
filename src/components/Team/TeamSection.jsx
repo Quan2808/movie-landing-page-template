@@ -35,7 +35,7 @@ export default function TeamSection() {
         {/* Team Slider */}
         <TeamSlider />
 
-        {/* CTA Section */}
+        {/* CTA Section 
         <div className="text-center mt-16">
           <div className="inline-flex flex-col sm:flex-row gap-4">
             <button className="px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-full hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
@@ -45,7 +45,7 @@ export default function TeamSection() {
               View All Members
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
